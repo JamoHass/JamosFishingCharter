@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FISHING ADVENTURES</title>
+        <!-- ===CSS=== -->
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+       <!--Navbar-->
+       <nav class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="commentForm.html">Comments</a>
+            <a href="saveForLater.html">Save for Later</a>
+            <a href="booking-conditions.html">Booking conditions</a>
+            <a href="contact-form.html">Contact</a>
+          </div>
+        </div>
+      </nav> 
+    </head> 
+    <body>
+        <header>
+            <div class="header-content">
+                <h2>Cast Your Line and Reel in the Adventure of a Lifetime!</h2>
+                <div class="line"></div>
+                <h1>YOUR TROPHY FISH AWAITS</h1>
+                <a href="https://youtu.be/7vk6u1mlqX4" class="ctn">Learn More</a>
+            </div>
+        </header>
+
+        <!--==Events==-->
+        <section class="events">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                 <img src="./img/boat.jpg" alt="">
+                 <h1>Big Game Charters</h1> 
+                  <p><a href="https://en.wikipedia.org/wiki/Giant_trevally">GT's </a>can be classified as apex predators as they hunt a variety
+                    of species, from lobsters and mantis shrimps to eels and smaller
+                    trevally species, in the deep waters around the islands as well
+                    as the flats and lagoons of the atolls. They are a powerful force
+                    to be reckoned with and holding up one of these impressive specimens
+                    is well worth the battle</p> 
+                    <a href="https://youtu.be/gmTw5vp8qCI" class="ctn">Learn More</a>
+                    <button class="save-button" onclick="saveContent(this)">Save</button>
+                    <button type="button" class="like-button" data-likes="0">Like</button>
+                    <span class="likeCount">0 Likes</span>
+                </div>
+            </div>
+                <div class="col">
+                    <img src="./img/gt.jpg" alt="">
+                    <h1>Fly Fishing Daytrips</h1> 
+                     <p><a href="https://www.hatchmag.com/saltwater-fly-fishing">Saltwater fly fishing</a> is a breathtaking and thrilling sport that
+                        allows anglers to immerse themselves in the natural beauty of the ocean. 
+                        The beauty of saltwater fly fishing lies in the challenge it presents, requiring 
+                        anglers to master casting techniques, understand the behavior of fish, and adapt 
+                        to changing conditions.
+
+                        As the sun rises and sets over the endless expanse of water, anglers cast their 
+                        lines and wait for that thrilling tug on the end of their fly. The excitement of hooking a powerful saltwater fish, such as a marlin or a tuna, is unparalleled.
+                        
+                        Beyond the thrill of the catch, saltwater fly fishing offers a chance to 
+                        connect with nature in a way that few other sports can. Whether you're 
+                        wading in the surf, floating in a boat, or casting from shore, you'll be 
+                        surrounded by the majesty of the ocean and its incredible inhabitants.</p> 
+                        <br>
+
+                       <a href="https://youtu.be/76nINmrMVvw" class="ctn">Learn More</a>
+                       <button class="save-button" onclick="saveContent(this)">Save</button>
+                       <button type="button" class="like-button" data-likes="0">Like</button>
+                       <span class="likeCount">0 Likes</span>
+                    </div>
+            </div>
+        </section>
+
+        <section class="explore">
+           <div class="explore-content">
+            <div class="col">
+            <h1>EXPLORE THE WORLD OF FISHING</h1>
+            <div class="line"></div>
+            <p>You will be amazed by its waters teeming with aggressive predatory fish, 
+                that include giant trevally, bonefish, triggerfish, permit, barracuda, 
+                bluefin trevally, snapper, grouper and algae eaters like the turbo-charged milkfish.
+            
+                If you venture into the blue water you can put your skills to further test by targeting 
+                the healthy populations of sailfish, wahoo, yellowfin tuna, dogtooth tuna, dorado, 
+                and even marlin.</p>
+                <br>
+                <a href="https://youtu.be/n1Ds01e36C8" class="ctn">Learn More</a></div> 
+                <button class="save-button" onclick="saveContent(this)">Save</button>
+                <button type="button" class="like-button" data-likes="0">Like</button>
+                <span class="likeCount">0 Likes</span>
+            </div>
+        </div>
+        </section>
+
+        <section class="tours">
+            <div class="row">
+             <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATIONS</h1>
+                <div class="line"></div>
+                <p> We're thrilled to offer you a variety of upcoming tours that cater to different fishing preferences. 
+                    For fly fishing enthusiasts, we have an exciting tour planned along the Garden Route that promises to 
+                    showcase some of the most breathtaking scenery and fishing spots in the area. If you're a fan of 
+                    freshwater bass fishing, we have pristine dams that offer excellent opportunities to catch these elusive
+                     fish. And for those who dare to face the monsters of the deep, our big game fishing tour is sure to give
+                    you the thrill of a lifetime. So, whether you're a seasoned angler or a beginner, we have something for everyone.
+                     Book your tour today and let us help you create unforgettable fishing memories!</p>
+                <a href="#" class="ctn">Learn more</a>
+                <button class="save-button" onclick="saveContent(this)">Save</button>
+                <button type="button" class="like-button" data-likes="0">Like</button>
+                <span class="likeCount">0 Likes</span>
+            </div>
+            </div>
+
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/fly-fishing-beaver-river.jpg" alt="">
+                    <img src="./img/fwater.jpg" alt="">
+                    <img src="./img/morning.jpg" alt="">
+                    <img src="./img/Targeting-a-Baracuda-in-Los-Roques.jpg" alt="">
+                    
+                </div>
+            </div>   
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>Testimonial</h2>
+            <div id="testimonials" class="testimonials">
+                <img src="./img/gts.jpg" alt="Johns Testimonial">
+                
+                <p>A trip that i will never forget. Well organised and deadly at finding the Fish. <br>
+                    Everything was well prepared and we felt comfortable and safe on the water. <br>
+                    The meals were absolutely delicious, and the fact that i caught my own lunch <br>
+                    made it that much more memorable. <br>
+                   I cannot wait to do another trip with Captain Jamo and crew! Thank you <br>
+                   <br>
+                   John Mckenzie
+                </p>
+            </div>
+            <button onclick="toggleVisibility('testimonials')">Toggle Visibility</button>
+        </section>> 
+         
+        <section class ="footer">
+            <p>412 Cape Road, Port Elizabeth, Eastern Cape | Phone: 0822964069 | Email: jamo@flyfish.gov</p>
+            <p>Copywrite  2023 Flyfishing Adventures</p>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>

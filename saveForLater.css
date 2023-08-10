@@ -1,0 +1,85 @@
+body {
+  background-image: url('img/underwater.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Styles for the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+/*Navbar*/
+/* Style the dropdown container */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+/* Style the dropdown button (the clickable part) */
+.dropbtn {
+  background-color: transparent;
+  color: rgb(5, 5, 5);
+  font-weight: 300;
+  padding: 12px;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown content (the list of links) */
+.dropdown-content {
+  display: none;
+  position: sticky;
+  background-color: #3061aa;
+  min-width: 160px;
+  z-index: 1;
+  text-decoration-color: #f2f2f2;
+}
+
+/* Style the links inside the dropdown content */
+.dropdown-content a {
+  color: rgb(252, 249, 249);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change the link color on hover */
+.dropdown-content a:hover {
+  background-color: #c42964;
+}
+
+/* Show the dropdown content when the dropdown button is hovered */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Styles for the saved items container */
+  #saved-items-container {
+    margin-top: 20px;
+  }
+  
+  .saved-item {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the saved count */
+  #saved-count {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  

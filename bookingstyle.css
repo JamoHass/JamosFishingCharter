@@ -1,0 +1,73 @@
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: whitesmoke;
+  background-color: black;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: larger;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h3 {
+  color: crimson;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+  color: cornflowerblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+/*Navbar*/
+/* Style the dropdown container */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+/* Style the dropdown button (the clickable part) */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown content (the list of links) */
+.dropdown-content {
+  display: none;
+  position: sticky;
+  background-color: #0e0d0d;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown content */
+.dropdown-content a {
+  color: rgb(252, 249, 249);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+/* Change the link color on hover */
+.dropdown-content a:hover {
+  background-color: #c42964;
+}
+
+/* Show the dropdown content when the dropdown button is hovered */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

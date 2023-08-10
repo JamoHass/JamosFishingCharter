@@ -1,0 +1,317 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* === Global === */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul {
+   list-style: none; 
+}
+.active {
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+body , html {
+    overflow-x: hidden;
+}
+
+/*Navbar*/
+/* Style the dropdown container */
+.dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  /* Style the dropdown button (the clickable part) */
+  .dropbtn {
+    background-color: transparent;
+    color: rgb(206, 33, 105);
+    font-weight: 300;
+    padding: 12px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown content (the list of links) */
+  .dropdown-content {
+    display: none;
+    position: sticky;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown content */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+  }
+  
+  /* Change the link color on hover */
+  .dropdown-content a:hover {
+    background-color: #c42964;
+  }
+  
+  /* Show the dropdown content when the dropdown button is hovered */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/nhie-fall-fly-fish.jpg');
+    background-position :bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.header-content{
+margin-bottom: 150px;
+color: whitesmoke;
+text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background-color: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.save-button {
+    padding: 8px 15px;
+    background-color: #1511f7;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.like-button {
+    padding: 8px 15px;
+    background-color: #20923c;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+/*Events*/
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(72, 72, 121);
+
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .col img{
+    width: 85%;
+}
+.events .row {
+    margin-top: 50px;
+}
+h4 {
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+p {
+   color: 7c7c7c; 
+   padding: 0px 40px;
+}
+.events .ctn {
+   margin-top: 30px;
+}
+img {
+
+    width: 500px;
+  }
+
+.explore {
+   width: 100%;
+   height: 100vh;
+   background-image: url(./img/fly-fishing-modern-nomad_s.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   }
+.explore-content {
+    width: 90%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1 {
+    font-size: 7vmin;
+} 
+.explore-content line {
+    margin-bottom: 50px;
+}
+.explore-content p {
+    color: rgb(245, 247, 248);
+}
+.explore-content ctn {
+    margin-top: 40px;
+}
+.content-col {
+    width: 80%;
+    text-align: center;
+}
+.image-col {
+    width: 60%;
+}
+.tours .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.image-gallery img {
+    max-width: 800px;
+    margin: 10px ;
+}
+.content-col h1{
+    font-size: 5vmin;
+    color: #484872;
+    margin-left: 20px;;
+}
+.content-col .line {
+    margin-left: 20px;
+}
+.content-col p {
+    padding: 0;
+    margin: 30px auto;
+}
+.content-col .ctn {
+    margin-left: -100px;
+}
+.footer {
+   width: 100%;
+   min-height: 100%;
+   padding: 20px 80px;
+   margin: 0;
+   background: #484872;
+   text-align: center;
+}
+.footer p {
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+/*Animations*/
+img {transition: trasform .3s ease;
+}
+img:hover {
+    transform: scale(1.1);
+}
+.active:hover{
+background: whitesmoke;
+color: #bafc04;
+box-shadow: 2px 2px 5px black;
+}
+.ctn:hover {
+    background: whitesmoke;
+    color: #fc036b;
+    box-shadow: 2px 2px 5px black;
+}
+
+.save-button:hover {
+    background: whitesmoke;
+    color: #0f57c4;
+    box-shadow: 2px 2px 5px black;
+}
+.like-button:hover {
+        background: whitesmoke;
+        color: #17723d;
+        box-shadow: 2px 2px 5px black;
+}
+li:hover {
+    color: #cfdde9;
+    cursor: pointer;
+
+}
+
+.testimonials {
+    background-color: #f5f5f5;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .testimonial {
+      width: 70%;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+      text-align: center;
+      margin-bottom: 50px;
+    
+      img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+      
+      h2 {
+        margin-bottom: 10px;
+      }
+    
+      p {
+        font-size: 19px;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+    }
+  
+  
