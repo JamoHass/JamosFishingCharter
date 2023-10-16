@@ -29,7 +29,7 @@ function handleFormSubmit(event) {
   commentEntry.appendChild(nameElement);
   commentEntry.appendChild(commentElement);
 
-  // Add the new comment entry to the saved comments container
+  // This Adds the new comment entry to the saved comments container
   savedCommentsContainer.appendChild(commentEntry);
 }
 
